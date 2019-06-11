@@ -54,10 +54,10 @@ public class cal {
     private void initialize() {
         frame = new JFrame();
         frame.setBounds(100, 100, 450, 400);
+//        用户单击窗口的关闭按钮时执行的操作
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        获取窗口的内容窗口，再设置内容窗口的布局是空布局
         frame.getContentPane().setLayout(null);
-
-
 
         JButton btnNewButton = new JButton("1");
         btnNewButton.setBackground(Color.LIGHT_GRAY);
